@@ -1,11 +1,7 @@
-import "./index.scss";
+import "./index.css";
 import { profile, sidebar } from "./data/db.json";
 
-import { 
-  profileArea,
-  sidebarPanel, 
-  createBtnLabel 
-} from "./src/js/common";
+import { profileArea, sidebarPanel, createBtnLabel } from "./src/js/common";
 
 // console.log(sidebar);
 

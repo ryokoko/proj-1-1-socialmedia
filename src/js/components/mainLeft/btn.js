@@ -1,10 +1,18 @@
-// Create-post Btn
-export function createMainBtn() {
-const createBtnLabel = document.createElement("label");
-createBtnLabel.classList.add("btn");
-createBtnLabel.classList.add("btn-primary");
-createBtnLabel.innerHTML = "Create Post";
-createBtnLabel.htmlFor = "create-post";
+export class MainBtn {
+  dom = null
 
-return createBtnLabel;
+  constructor() {
+    this.build()
+  }
+// Create-post Btn
+  build() {
+    this.dom = document.createElement("label");
+    this.dom.classList.add("btn");
+    this.dom.classList.add("btn-primary");
+    this.dom.innerHTML = "Create Post";
+    this.dom.htmlFor = "create-post";
+    console.log(this.dom)
+
+    return this.dom;
+  }
 }

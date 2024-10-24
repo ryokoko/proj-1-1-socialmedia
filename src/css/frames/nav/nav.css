@@ -2,7 +2,7 @@
   --nav-background-color: #fff;
 }
 nav {
-  display: block; //used with margin 0 auto
+  display: block; /* used with margin 0 auto */
   position: fixed;
   z-index: 999;
 

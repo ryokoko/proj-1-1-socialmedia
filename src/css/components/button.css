@@ -4,7 +4,7 @@
 }
 
 .btn {
-  display: inline-block; //需要撑起来 
+  display: inline-block; /*需要撑起来  */
   padding: var(--btn-padding);
   font-weight: 500;
   border-radius: var(--btn-border-radius);
