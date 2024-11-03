@@ -21,10 +21,16 @@
 
 .request .profile {
   padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
 .request .profile-description h2 {
   font-size: 1.2rem;
+}
+.request .profile-description p {
+  font-size: 0.7rem;
+  color: var(--color-gray);
 }
 
 .request .request-btn-group {

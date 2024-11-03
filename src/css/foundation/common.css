@@ -13,6 +13,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   background: var(--color-white);
+  line-height: 1.15;
 }
 
 *,

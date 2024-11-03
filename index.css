@@ -20,7 +20,7 @@
 
 /* Middle */
 @import "src/css/frames/main/middle/main_middle.css";
-@import "src/css/frames/main/middle/main_middle_highline.css";
+@import "src/css/frames/main/middle/main_middle_highlight.css";
 @import "src/css/frames/main/middle/main_middle_post.css";
 @import "src/css/frames/main/middle/main_middle_card.css";
 /* Right */

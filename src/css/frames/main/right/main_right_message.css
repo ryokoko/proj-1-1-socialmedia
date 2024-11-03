@@ -70,6 +70,8 @@
 }
 
 .friend-list .profile {
+  display: flex;
+  gap: 1rem;
   border-radius: 50px;
   box-shadow:
     10px 10px 10px var(--color-white),
@@ -79,4 +81,9 @@
 
 .friend-list .profile h2 {
   font-size: 0.9rem;
+}
+
+.friend-list .profile p {
+  color: var(--color-gray);
+  font-size: 0.7rem;
 }
